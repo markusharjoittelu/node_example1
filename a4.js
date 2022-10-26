@@ -13,3 +13,9 @@ console.log("Tulostus foreach-loopilla");
 cars.forEach(element => {
     console.log("Auto = " + element);
 });
+
+console.log("Tulostus foreach-loopilla indeksi mukaan");
+cars.forEach((element, index) => {
+    let x = 1;
+    console.log(index + "Auto = " + element);   
+});
